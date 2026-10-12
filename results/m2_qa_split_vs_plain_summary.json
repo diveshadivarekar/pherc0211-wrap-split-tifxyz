@@ -1,0 +1,90 @@
+{
+ "A_plain": {
+  "pages": 6,
+  "vertices": 61881,
+  "contract_findings": 0,
+  "folded_mean": 0.03541318320034429,
+  "cross_wrap_fraction": 0.7627866388713822,
+  "on_surface_fraction": 0.45246722017320096,
+  "abs_drift_median_vox": 4.0408749615849455,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.7818090239979203,
+  "largest_page_vertices": 47865
+ },
+ "A_split": {
+  "pages": 44,
+  "vertices": 39902,
+  "contract_findings": 0,
+  "folded_mean": 0.0,
+  "cross_wrap_fraction": 0.0016540524284497018,
+  "on_surface_fraction": 0.984473850031506,
+  "abs_drift_median_vox": 0.855276398915639,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.0,
+  "largest_page_vertices": 6465
+ },
+ "B_plain": {
+  "pages": 24,
+  "vertices": 124283,
+  "contract_findings": 0,
+  "folded_mean": 0.014035387113088806,
+  "cross_wrap_fraction": 0.35650893525260896,
+  "on_surface_fraction": 0.6746485526723028,
+  "abs_drift_median_vox": 1.9034723369258817,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.4719982407271661,
+  "largest_page_vertices": 15433
+ },
+ "B_split": {
+  "pages": 87,
+  "vertices": 196428,
+  "contract_findings": 0,
+  "folded_mean": 0.0016796759213516452,
+  "cross_wrap_fraction": 0.00194982385403303,
+  "on_surface_fraction": 0.9893872452401309,
+  "abs_drift_median_vox": 0.1884288876534798,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.0037218874628195215,
+  "largest_page_vertices": 11904
+ },
+ "C_plain": {
+  "pages": 17,
+  "vertices": 93094,
+  "contract_findings": 0,
+  "folded_mean": 0.012115001793376403,
+  "cross_wrap_fraction": 0.3400219133349088,
+  "on_surface_fraction": 0.5116940959209169,
+  "abs_drift_median_vox": 2.779748358250081,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.7788930530661018,
+  "largest_page_vertices": 21297
+ },
+ "C_split": {
+  "pages": 116,
+  "vertices": 205795,
+  "contract_findings": 0,
+  "folded_mean": 0.0,
+  "cross_wrap_fraction": 3.887363638572366e-05,
+  "on_surface_fraction": 0.9785568163421491,
+  "abs_drift_median_vox": 0.5458658463213806,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.019422000480766873,
+  "largest_page_vertices": 10712
+ },
+ "D_plain": {
+  "pages": 9,
+  "vertices": 86309,
+  "contract_findings": 0,
+  "folded_mean": 0.03013922106585048,
+  "cross_wrap_fraction": 0.541473079284895,
+  "on_surface_fraction": 0.45980590707420715,
+  "abs_drift_median_vox": 3.854497717867279,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.7887103005045479,
+  "largest_page_vertices": 59778
+ },
+ "D_split": {
+  "pages": 151,
+  "vertices": 144930,
+  "contract_findings": 0,
+  "folded_mean": 7.270478437719204e-05,
+  "cross_wrap_fraction": 0.007389774373835645,
+  "on_surface_fraction": 0.9758005088775497,
+  "abs_drift_median_vox": 0.2878849737169686,
+  "share_vertices_on_pages_below_90pct_on_surface": 0.016218733923779597,
+  "largest_page_vertices": 4157
+ }
+}

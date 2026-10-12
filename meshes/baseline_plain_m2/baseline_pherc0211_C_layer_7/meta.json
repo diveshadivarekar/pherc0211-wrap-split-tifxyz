@@ -1,0 +1,43 @@
+{
+  "source": {
+    "pipeline": "virtual-unwrap M3",
+    "flattened": "pherc0211_C_flattened.h5",
+    "page": "layer_7",
+    "method": "patch",
+    "scroll": "PHerc. 0211",
+    "scan_id": "20250821151803",
+    "volume": "20250821151803-9.362um-1.2m-113keV-masked.zarr",
+    "surface_prediction": "20250821151803-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+    "crop": "native_crop_C",
+    "crop_origin_zyx": [
+      6272,
+      4608,
+      2048
+    ],
+    "segmentation": "M2 plain surface pieces (wedge 40 deg, no wrap splitting) - BASELINE, pages cut across wraps",
+    "flattening": "M3 patch_unwrap + ARAP relax (edge-length rescale); height-field page, not an isometric flattening",
+    "coordinates": "level-0 voxels of the scan; x/y/z.tif at stride 4"
+  },
+  "format": "tifxyz",
+  "type": "seg",
+  "uuid": "baseline_pherc0211_C_layer_7",
+  "scale": [
+    0.197945727,
+    0.150981282
+  ],
+  "bbox": [
+    [
+      2738.631591796875,
+      4844.935546875,
+      6271.544921875
+    ],
+    [
+      2904.1337890625,
+      5023.7158203125,
+      6527.99072265625
+    ]
+  ],
+  "area_vx2": 104700.45242314019,
+  "voxelsize": 9.362,
+  "area_cm2": 0.09176685160350877
+}

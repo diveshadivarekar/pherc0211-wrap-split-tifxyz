@@ -1,0 +1,82 @@
+{
+ "scroll": "PHerc. 0211",
+ "scan_id": "20250821151803",
+ "volume": "20250821151803-9.362um-1.2m-113keV-masked.zarr",
+ "surface_prediction": "20250821151803-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+ "umbilicus": "20250821151803-umbilicus-20260808112626.json",
+ "package_built": "2026-10-12",
+ "source_repository_head": "9db375a3c82cecb4879b915867f9d81ce2c5b0e3",
+ "working_tree_note": "package built from the working tree; code that produced the results (scripts/probes/ink9um_*.py, run_ink9um_0211.sh, scripts/tifxyz_qa.py fix) was NOT yet committed at build time. TODO: commit, then record that commit here and in docs/WRITEUP.md",
+ "environment_project": {
+  "python": "3.13.3",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "h5py": "3.16.0",
+  "zarr": "2.18.7",
+  "torch": "2.9.0+cu130",
+  "see": "results/environment_project_pip_freeze.txt"
+ },
+ "environment_ink_test": {
+  "python": "3.14.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.5.3",
+  "zarr": "3.4.1",
+  "villa_vesuvius_commit": "a329895ea5e9bde78752e60dbc0a4878dd2ab909"
+ },
+ "ink_checkpoint": {
+  "name": "hybrid_3d2d-seed42/step-075000.pth",
+  "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+  "bytes": 138360039,
+  "redistributed": false,
+  "download_url": "not recorded"
+ },
+ "hardware": "NVIDIA RTX A5000 24 GB; Windows 11",
+ "windows_origin_zyx": {
+  "A": [
+   9600,
+   3840,
+   4608
+  ],
+  "B": [
+   8320,
+   4096,
+   1024
+  ],
+  "C": [
+   6272,
+   4608,
+   2048
+  ],
+  "D": [
+   11904,
+   1536,
+   4096
+  ]
+ },
+ "window_shape_zyx": [
+  256,
+  640,
+  1536
+ ],
+ "m2_params": {
+  "threshold": 127,
+  "wedge_degrees": 40.0,
+  "min_voxels": 2000,
+  "split_wraps": {
+   "link_tol": "default 0.75 prediction voxel",
+   "single_valued": true
+  },
+  "tuned_on_0211": false
+ },
+ "m3_params": {
+  "min_voxels": 20000,
+  "method": "patch (auto)",
+  "arap_iters": 5
+ },
+ "tifxyz_export": {
+  "stride": 4,
+  "voxel_um": 9.362
+ },
+ "seeds": "none: no model trained; inference deterministic (one page re-run bit-identical)",
+ "ai_assistance": "developed with Claude Code assistance"
+}

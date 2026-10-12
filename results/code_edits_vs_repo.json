@@ -1,0 +1,12 @@
+{
+ "scripts/download_native_crop.py": "string constants / defaults changed (see CODE_NOTES.md)",
+ "scripts/download_surface_prediction.py": "string constants / defaults changed (see CODE_NOTES.md)",
+ "scripts/export_tifxyz.py": "identical code (docstrings/comments only)",
+ "scripts/tifxyz_qa.py": "identical code (docstrings/comments only)",
+ "src/m2_segmentation/surface_segments.py": "identical code (docstrings/comments only)",
+ "src/m3_flattening/flatten.py": "identical code (docstrings/comments only)",
+ "src/m4_ink_detection/run.py": "identical code (docstrings/comments only)",
+ "src/tifxyz/qa.py": "identical code (docstrings/comments only)",
+ "scripts/probes/ink9um_on_pages.py": "identical code (docstrings/comments only)",
+ "src/m4_ink_detection/candidates.py": "string constants / defaults changed (see CODE_NOTES.md)"
+}

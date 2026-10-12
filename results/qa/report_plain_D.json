@@ -1,0 +1,707 @@
+{
+  "summary": {
+    "surfaces": 9,
+    "contract_findings": 0,
+    "folded_fraction_mean": 0.03013922106585048,
+    "cross_wrap_fraction": 0.541473079284895,
+    "wraps_crossed_median": 4.404137374546548,
+    "surfaces_spanning_over_2_wraps": 7,
+    "on_surface_fraction": 0.45980590707420715,
+    "abs_drift_median_voxels": 3.854497717867279,
+    "ct_centred_fraction": null,
+    "ct_contrast": null
+  },
+  "surfaces": [
+    {
+      "name": "layer_1",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          164,
+          386
+        ],
+        "valid_vertices": 59778,
+        "valid_fraction": 0.944300518134715,
+        "scale": [
+          0.159122197,
+          0.097343397
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 4,
+        "enclosed_hole_cells": 154,
+        "area_vx2": 4004022.258050666,
+        "edge_ratio": {
+          "p05": 0.4179385768935337,
+          "p50": 0.922979672711761,
+          "p95": 3.124865097623411,
+          "p99": 5.059374051535912,
+          "fraction_over_2x": 0.14706528907452188
+        },
+        "cell_shear_cos_p95": 0.950633219666442,
+        "cell_aspect_p95": 5.016428348819764,
+        "folded_cells": 14111,
+        "folded_fraction": 0.23861541843515904
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 59778,
+        "angle_median_deg": 70.76199052617821,
+        "angle_p95_deg": 88.13465333131934,
+        "cross_wrap_fraction": 0.7403894409314463,
+        "clusters": [
+          {
+            "cells": 44137,
+            "rows": [
+              1,
+              163
+            ],
+            "cols": [
+              1,
+              385
+            ],
+            "centre_xyz": [
+              4855.2,
+              1869.6,
+              12030.6
+            ]
+          },
+          {
+            "cells": 38,
+            "rows": [
+              4,
+              12
+            ],
+            "cols": [
+              296,
+              304
+            ],
+            "centre_xyz": [
+              5296.1,
+              1563.2,
+              12122.4
+            ]
+          },
+          {
+            "cells": 37,
+            "rows": [
+              29,
+              38
+            ],
+            "cols": [
+              359,
+              378
+            ],
+            "centre_xyz": [
+              5572.4,
+              1670.4,
+              12085.6
+            ]
+          }
+        ]
+      },
+      "radial_extent": {
+        "radius_p05": 1106.9274274960417,
+        "radius_p95": 2401.2473555209294,
+        "radial_spread_total": 1294.3199280248878,
+        "radial_spread": 1245.9413579799339,
+        "slabs": 16,
+        "angular_span_deg": 29.17915007590021,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 28.0,
+        "wraps_crossed": 44.497905642140495,
+        "wraps_crossed_total": 46.22571171517456
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 59778,
+        "vertices_in_volume": 59552,
+        "on_surface_fraction": 0.27804271896829663,
+        "surface_within_search_fraction": 0.7878156904889844,
+        "abs_drift_median": 5.17025284967916,
+        "abs_drift_p95": 11.479707355109628
+      }
+    },
+    {
+      "name": "layer_2",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          49,
+          73
+        ],
+        "valid_vertices": 2783,
+        "valid_fraction": 0.7780262790047526,
+        "scale": [
+          0.233880758,
+          0.18950204
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 0,
+        "enclosed_hole_cells": 0,
+        "area_vx2": 71761.45314512738,
+        "edge_ratio": {
+          "p05": 0.7674618510297164,
+          "p50": 0.9883223057960284,
+          "p95": 1.9448954914950904,
+          "p99": 2.848170933479681,
+          "fraction_over_2x": 0.04516129032258064
+        },
+        "cell_shear_cos_p95": 0.6423238591939467,
+        "cell_aspect_p95": 2.4243368564552683,
+        "folded_cells": 86,
+        "folded_fraction": 0.03263757115749526
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 2783,
+        "angle_median_deg": 65.08975844653288,
+        "angle_p95_deg": 86.99599472712491,
+        "cross_wrap_fraction": 0.6661875673733382,
+        "clusters": [
+          {
+            "cells": 1854,
+            "rows": [
+              1,
+              49
+            ],
+            "cols": [
+              1,
+              73
+            ],
+            "centre_xyz": [
+              4142.9,
+              1598.5,
+              12022.0
+            ]
+          }
+        ]
+      },
+      "radial_extent": {
+        "radius_p05": 1173.0426096882534,
+        "radius_p95": 1324.8457070365569,
+        "radial_spread_total": 151.80309734830348,
+        "radial_spread": 146.87372770139768,
+        "slabs": 16,
+        "angular_span_deg": 2.7072549830683217,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 34.0,
+        "wraps_crossed": 4.319815520629343,
+        "wraps_crossed_total": 4.464796980832455
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 2783,
+        "vertices_in_volume": 2738,
+        "on_surface_fraction": 0.36705624543462384,
+        "surface_within_search_fraction": 0.8586559532505479,
+        "abs_drift_median": 4.077841814676381,
+        "abs_drift_p95": 11.041852725131044
+      }
+    },
+    {
+      "name": "layer_3",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          81,
+          145
+        ],
+        "valid_vertices": 7531,
+        "valid_fraction": 0.6412090251170711,
+        "scale": [
+          0.249683088,
+          0.249871932
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 0,
+        "enclosed_hole_cells": 0,
+        "area_vx2": 117323.39658896532,
+        "edge_ratio": {
+          "p05": 0.9987992563835512,
+          "p50": 0.9999735899779838,
+          "p95": 1.0051280896324866,
+          "p99": 1.0106864969225273,
+          "fraction_over_2x": 0.0
+        },
+        "cell_shear_cos_p95": 0.005871134790840568,
+        "cell_aspect_p95": 1.0076379113257419,
+        "folded_cells": 0,
+        "folded_fraction": 0.0
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 7531,
+        "angle_median_deg": 52.21830980097217,
+        "angle_p95_deg": 57.92665238921528,
+        "cross_wrap_fraction": 0.006108086575487983,
+        "clusters": [
+          {
+            "cells": 46,
+            "rows": [
+              64,
+              75
+            ],
+            "cols": [
+              108,
+              113
+            ],
+            "centre_xyz": [
+              5503.8,
+              1593.3,
+              12140.5
+            ]
+          }
+        ]
+      },
+      "radial_extent": {
+        "radius_p05": 2163.3024145050936,
+        "radius_p95": 2512.957698763111,
+        "radial_spread_total": 349.6552842580172,
+        "radial_spread": 308.5237584542758,
+        "slabs": 16,
+        "angular_span_deg": 7.700680412771645,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 34.0,
+        "wraps_crossed": 9.074228189831642,
+        "wraps_crossed_total": 10.283978948765212
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 7531,
+        "vertices_in_volume": 7379,
+        "on_surface_fraction": 1.0,
+        "surface_within_search_fraction": 1.0,
+        "abs_drift_median": 0.4353322828077755,
+        "abs_drift_p95": 0.7590621035862433
+      }
+    },
+    {
+      "name": "layer_4",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          82,
+          117
+        ],
+        "valid_vertices": 5206,
+        "valid_fraction": 0.5426308109234939,
+        "scale": [
+          0.249486678,
+          0.24945213
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 2,
+        "enclosed_hole_cells": 54,
+        "area_vx2": 81880.69044642088,
+        "edge_ratio": {
+          "p05": 0.9978740340315183,
+          "p50": 0.9999549320612325,
+          "p95": 1.0573761478645136,
+          "p99": 1.2275235794187733,
+          "fraction_over_2x": 0.0001004419445560466
+        },
+        "cell_shear_cos_p95": 0.07873330852457745,
+        "cell_aspect_p95": 1.0795419780232955,
+        "folded_cells": 0,
+        "folded_fraction": 0.0
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 5206,
+        "angle_median_deg": 51.32961476778915,
+        "angle_p95_deg": 63.589609200525544,
+        "cross_wrap_fraction": 0.0958509412216673,
+        "clusters": [
+          {
+            "cells": 452,
+            "rows": [
+              55,
+              81
+            ],
+            "cols": [
+              62,
+              96
+            ],
+            "centre_xyz": [
+              5466.0,
+              1550.0,
+              12114.4
+            ]
+          },
+          {
+            "cells": 34,
+            "rows": [
+              48,
+              56
+            ],
+            "cols": [
+              69,
+              75
+            ],
+            "centre_xyz": [
+              5460.5,
+              1572.3,
+              12043.3
+            ]
+          }
+        ]
+      },
+      "radial_extent": {
+        "radius_p05": 2265.1182149476635,
+        "radius_p95": 2522.389242339998,
+        "radial_spread_total": 257.2710273923344,
+        "radial_spread": 213.9087786778921,
+        "slabs": 16,
+        "angular_span_deg": 5.964609910838723,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 28.0,
+        "wraps_crossed": 7.639599238496146,
+        "wraps_crossed_total": 9.188250978297658
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 5206,
+        "vertices_in_volume": 5084,
+        "on_surface_fraction": 0.7669158143194336,
+        "surface_within_search_fraction": 0.997639653815893,
+        "abs_drift_median": 0.49605300924343354,
+        "abs_drift_p95": 6.301574946788079
+      }
+    },
+    {
+      "name": "layer_5",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          82,
+          128
+        ],
+        "valid_vertices": 6397,
+        "valid_fraction": 0.6094702743902439,
+        "scale": [
+          0.249749382,
+          0.249705918
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 0,
+        "enclosed_hole_cells": 0,
+        "area_vx2": 99476.69453330041,
+        "edge_ratio": {
+          "p05": 0.9988844277681173,
+          "p50": 0.9999761867940156,
+          "p95": 1.0071332403177604,
+          "p99": 1.0114665592532917,
+          "fraction_over_2x": 0.0
+        },
+        "cell_shear_cos_p95": 0.008530869777034706,
+        "cell_aspect_p95": 1.009453948590663,
+        "folded_cells": 0,
+        "folded_fraction": 0.0
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 6397,
+        "angle_median_deg": 51.66136260653083,
+        "angle_p95_deg": 56.80999013541387,
+        "cross_wrap_fraction": 0.011880569016726591,
+        "clusters": [
+          {
+            "cells": 76,
+            "rows": [
+              70,
+              80
+            ],
+            "cols": [
+              71,
+              80
+            ],
+            "centre_xyz": [
+              5434.0,
+              1553.5,
+              12143.1
+            ]
+          }
+        ]
+      },
+      "radial_extent": {
+        "radius_p05": 2218.9295245940616,
+        "radius_p95": 2522.053271826494,
+        "radial_spread_total": 303.1237472324324,
+        "radial_spread": 256.88667588347334,
+        "slabs": 16,
+        "angular_span_deg": 6.680235148004854,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 28.0,
+        "wraps_crossed": 9.174524138695476,
+        "wraps_crossed_total": 10.825848115444014
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 6397,
+        "vertices_in_volume": 6255,
+        "on_surface_fraction": 1.0,
+        "surface_within_search_fraction": 1.0,
+        "abs_drift_median": 0.4250127964980709,
+        "abs_drift_p95": 0.8036948343106254
+      }
+    },
+    {
+      "name": "layer_6",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          73,
+          99
+        ],
+        "valid_vertices": 2416,
+        "valid_fraction": 0.3343019233430192,
+        "scale": [
+          0.249834134,
+          0.249742814
+        ],
+        "n_components": 2,
+        "largest_component_fraction": 0.9987582781456954,
+        "n_enclosed_holes": 12,
+        "enclosed_hole_cells": 77,
+        "area_vx2": 31642.472875130283,
+        "edge_ratio": {
+          "p05": 0.9990071824540672,
+          "p50": 0.9999576137469092,
+          "p95": 1.00755661473617,
+          "p99": 1.0253790238735065,
+          "fraction_over_2x": 0.0
+        },
+        "cell_shear_cos_p95": 0.009263145983476172,
+        "cell_aspect_p95": 1.012645786293304,
+        "folded_cells": 0,
+        "folded_fraction": 0.0
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 2416,
+        "angle_median_deg": 50.0955887399073,
+        "angle_p95_deg": 53.069758319679465,
+        "cross_wrap_fraction": 0.0,
+        "clusters": []
+      },
+      "radial_extent": {
+        "radius_p05": 2343.4956462762107,
+        "radius_p95": 2543.6985382306984,
+        "radial_spread_total": 200.20289195448777,
+        "radial_spread": 149.74067073458264,
+        "slabs": 16,
+        "angular_span_deg": 4.4946645571498,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 34.0,
+        "wraps_crossed": 4.404137374546548,
+        "wraps_crossed_total": 5.888320351602581
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 2416,
+        "vertices_in_volume": 2336,
+        "on_surface_fraction": 0.9126712328767124,
+        "surface_within_search_fraction": 0.9499143835616438,
+        "abs_drift_median": 0.4147374388087586,
+        "abs_drift_p95": 0.8777635176822987
+      }
+    },
+    {
+      "name": "layer_7",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          41,
+          57
+        ],
+        "valid_vertices": 1037,
+        "valid_fraction": 0.44373127941805734,
+        "scale": [
+          0.249920372,
+          0.249851641
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 0,
+        "enclosed_hole_cells": 0,
+        "area_vx2": 14987.23292401496,
+        "edge_ratio": {
+          "p05": 0.9994409481658477,
+          "p50": 0.9999718814047756,
+          "p95": 1.0028889108906975,
+          "p99": 1.0056013987082477,
+          "fraction_over_2x": 0.0
+        },
+        "cell_shear_cos_p95": 0.004759058959414224,
+        "cell_aspect_p95": 1.003228779127467,
+        "folded_cells": 0,
+        "folded_fraction": 0.0
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 1037,
+        "angle_median_deg": 51.38824797381939,
+        "angle_p95_deg": 54.162831354714605,
+        "cross_wrap_fraction": 0.0,
+        "clusters": []
+      },
+      "radial_extent": {
+        "radius_p05": 2438.527749129659,
+        "radius_p95": 2544.919717414921,
+        "radial_spread_total": 106.39196828526201,
+        "radial_spread": 83.67033368702005,
+        "slabs": 12,
+        "angular_span_deg": 1.9019263565978588,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 23.0,
+        "wraps_crossed": 3.637840595087828,
+        "wraps_crossed_total": 4.625737751533131
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 1037,
+        "vertices_in_volume": 1015,
+        "on_surface_fraction": 0.9881773399014778,
+        "surface_within_search_fraction": 0.9990147783251232,
+        "abs_drift_median": 0.4253333558353881,
+        "abs_drift_p95": 0.7136471531276513
+      }
+    },
+    {
+      "name": "layer_8",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          29,
+          65
+        ],
+        "valid_vertices": 625,
+        "valid_fraction": 0.33156498673740054,
+        "scale": [
+          0.246885745,
+          0.247427702
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 0,
+        "enclosed_hole_cells": 0,
+        "area_vx2": 8692.437061015418,
+        "edge_ratio": {
+          "p05": 0.987737495455543,
+          "p50": 1.0005076671077253,
+          "p95": 1.041653149274128,
+          "p99": 1.0777464594403323,
+          "fraction_over_2x": 0.0
+        },
+        "cell_shear_cos_p95": 0.04381390240433697,
+        "cell_aspect_p95": 1.0683430532613518,
+        "folded_cells": 0,
+        "folded_fraction": 0.0
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 625,
+        "angle_median_deg": 20.248929020586452,
+        "angle_p95_deg": 32.36378041079001,
+        "cross_wrap_fraction": 0.0,
+        "clusters": []
+      },
+      "radial_extent": {
+        "radius_p05": 1317.6266628228148,
+        "radius_p95": 1347.3523098713197,
+        "radial_spread_total": 29.725647048504925,
+        "radial_spread": 10.203472246019373,
+        "slabs": 11,
+        "angular_span_deg": 3.949328454633797,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 23.0,
+        "wraps_crossed": 0.44362922808779887,
+        "wraps_crossed_total": 1.2924194368915185
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 625,
+        "vertices_in_volume": 583,
+        "on_surface_fraction": 0.9965694682675815,
+        "surface_within_search_fraction": 0.9982847341337907,
+        "abs_drift_median": 0.33076192361006584,
+        "abs_drift_p95": 0.7130831843693695
+      }
+    },
+    {
+      "name": "layer_9",
+      "contract": [],
+      "geometry": {
+        "grid": [
+          20,
+          61
+        ],
+        "valid_vertices": 536,
+        "valid_fraction": 0.43934426229508194,
+        "scale": [
+          0.249861686,
+          0.249836628
+        ],
+        "n_components": 1,
+        "largest_component_fraction": 1.0,
+        "n_enclosed_holes": 0,
+        "enclosed_hole_cells": 0,
+        "area_vx2": 7239.215290441101,
+        "edge_ratio": {
+          "p05": 0.9993677470265958,
+          "p50": 1.0000202318506446,
+          "p95": 1.005623869396551,
+          "p99": 1.0113848120392734,
+          "fraction_over_2x": 0.0
+        },
+        "cell_shear_cos_p95": 0.005943666932686876,
+        "cell_aspect_p95": 1.0072821626416637,
+        "folded_cells": 0,
+        "folded_fraction": 0.0
+      },
+      "radiality": {
+        "max_angle_deg": 60.0,
+        "evaluated_vertices": 536,
+        "angle_median_deg": 48.05765821353178,
+        "angle_p95_deg": 52.84750336315467,
+        "cross_wrap_fraction": 0.0,
+        "clusters": []
+      },
+      "radial_extent": {
+        "radius_p05": 2193.5481989819423,
+        "radius_p95": 2285.679120023378,
+        "radial_spread_total": 92.13092104143561,
+        "radial_spread": 25.733475250445508,
+        "slabs": 12,
+        "angular_span_deg": 1.7871390327858263,
+        "wraps_crossed_reliable": true,
+        "wrap_spacing": 26.0,
+        "wraps_crossed": 0.9897490480940581,
+        "wraps_crossed_total": 3.543496963132139
+      },
+      "support": {
+        "threshold": 127.0,
+        "search_voxels": 12.0,
+        "vertices_sampled": 536,
+        "vertices_in_volume": 481,
+        "on_surface_fraction": 0.9688149688149689,
+        "surface_within_search_fraction": 1.0,
+        "abs_drift_median": 0.4421003951699593,
+        "abs_drift_p95": 0.9118961881426909
+      }
+    }
+  ]
+}

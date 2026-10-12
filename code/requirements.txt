@@ -1,0 +1,23 @@
+# PoC pipeline dependencies (M1-M6). See README.md for what's a working
+# simplification vs. a stub interface for a real research-grade model
+# (FastSAM3D, TimeSformer, Ithaca, a real NMT checkpoint).
+
+numpy<2.0
+scipy
+h5py
+PyYAML
+scikit-image
+# pooch is only needed by the synthetic-data tests' sample-scan path
+pooch
+zarr<3      # OME-Zarr access to the Vesuvius Challenge open data
+s3fs
+fsspec
+dask[array] # out-of-core M2 segmentation (see src/m2_segmentation/segment_out_of_core.py)
+dask-image
+Pillow
+pytest
+
+# M2 (segmentation CNN refinement), M4 (ink-detection CNN), M5 (CRNN/infilling).
+# Install with CUDA support from https://pytorch.org/get-started/locally/, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch

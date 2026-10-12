@@ -1,0 +1,111 @@
+{
+ "scan_id": "20250821151803",
+ "volume": "20250821151803-9.362um-1.2m-113keV-masked.zarr",
+ "voxel_um": 9.362,
+ "kev": 113,
+ "level0_shape_zyx": [
+  19416,
+  7948,
+  7948
+ ],
+ "survey_level": 2,
+ "survey_blocks": 1439,
+ "survey_planarity_median": 0.4260582897211591,
+ "survey_planarity_p90": 0.6707982978555016,
+ "crops": {
+  "A": {
+   "origin_zyx": [
+    9600,
+    3840,
+    4608
+   ],
+   "shape_zyx": [
+    256,
+    640,
+    1536
+   ],
+   "dtype": "uint8",
+   "nonzero_fraction_z_subsampled": 0.84,
+   "surface_prediction_scale_to_native": 1,
+   "surface_voxels_gt127": 51312220,
+   "survey_blocks_overlapping": 7,
+   "survey_planarity_percentiles_of_overlapping_blocks": [
+    0.9,
+    0.48,
+    0.44,
+    0.83,
+    0.56,
+    0.63,
+    0.71
+   ]
+  },
+  "B": {
+   "origin_zyx": [
+    8320,
+    4096,
+    1024
+   ],
+   "shape_zyx": [
+    256,
+    640,
+    1536
+   ],
+   "dtype": "uint8",
+   "nonzero_fraction_z_subsampled": 0.655,
+   "surface_prediction_scale_to_native": 1,
+   "surface_voxels_gt127": 52575897,
+   "survey_blocks_overlapping": 2,
+   "survey_planarity_percentiles_of_overlapping_blocks": [
+    0.98,
+    0.89
+   ]
+  },
+  "C": {
+   "origin_zyx": [
+    6272,
+    4608,
+    2048
+   ],
+   "shape_zyx": [
+    256,
+    640,
+    1536
+   ],
+   "dtype": "uint8",
+   "nonzero_fraction_z_subsampled": 0.853,
+   "surface_prediction_scale_to_native": 1,
+   "surface_voxels_gt127": 33355370,
+   "survey_blocks_overlapping": 3,
+   "survey_planarity_percentiles_of_overlapping_blocks": [
+    0.89,
+    0.93,
+    0.95
+   ]
+  },
+  "D": {
+   "origin_zyx": [
+    11904,
+    1536,
+    4096
+   ],
+   "shape_zyx": [
+    256,
+    640,
+    1536
+   ],
+   "dtype": "uint8",
+   "nonzero_fraction_z_subsampled": 0.998,
+   "surface_prediction_scale_to_native": 1,
+   "surface_voxels_gt127": 60754651,
+   "survey_blocks_overlapping": 6,
+   "survey_planarity_percentiles_of_overlapping_blocks": [
+    0.38,
+    0.93,
+    1.0,
+    0.11,
+    0.11,
+    0.74
+   ]
+  }
+ }
+}
